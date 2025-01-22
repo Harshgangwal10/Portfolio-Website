@@ -17,8 +17,10 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>"I'm a pre-final year Computer Science student passionate about web development, focused on creating user-friendly websites."I specialize in HTML, CSS, JavaScript, and React, crafting responsive and intuitive user interfaces.""</p>
-            <p>"I have intermediate experience with Node.js and SQL, enabling contributions to full-stack development.</p>
+            <p>
+
+            I am Harsh, a third-year Computer Science student and a skilled full-stack developer with expertise in React.js for building responsive user interfaces. I have a strong foundation in backend technologies like Node.js, MongoDB, and SQL. Proficient in Data Structures and Algorithms, I’ve solved around 300 problems on platforms like LeetCode and GeeksforGeeks. My experience includes developing projects like  doctor appointment platforms , Food Ordering Website and News app . With a passion for problem-solving and creating impactful digital solutions, I aim to enhance user experiences through my work.</p>
+            {/* <p>"I have intermediate experience with Node.js and SQL, enabling contributions to full-stack development.</p> */}
           </div>
         </div>
       </div>

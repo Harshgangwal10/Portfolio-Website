@@ -10,7 +10,7 @@ const Hero = () => {
    <div id='home' className='hero'>
   <img src={profile_img} alt="" />  
   <h1><span>I'm Harsh Gangwal,</span> Full Stack Web Developer</h1>  
-  <p> I am a pre-final year Computer Science student with a focus on Full Stack Web Developer ,skilled in HTML, CSS, JavaScript, and React for building responsive web applications.</p>  
+  <p> I am a pre-final year Computer Science student specializing in full-stack web development. Skilled in HTML, CSS, JavaScript, and React, I excel at building responsive and user-friendly web applications.</p>  
   
   <div className='social-media'>
           <a href="https://linkedin.com" target="_blank" >
