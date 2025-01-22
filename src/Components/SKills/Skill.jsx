@@ -23,6 +23,10 @@ const Skill = () => {
           <p>JavaScript </p>
           <hr style={{ width: "75%" }} />
         </div>
+        <div className="skill-type">
+          <p>DSA</p>
+           <hr style={{ width: "100%" }} />
+        </div>
 
         <div className="skill-type">
           <p>HTML & CSS </p> <hr style={{ width: "75%" }} />
