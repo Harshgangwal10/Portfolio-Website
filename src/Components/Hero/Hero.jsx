@@ -13,10 +13,10 @@ const Hero = () => {
   <p> I am a pre-final year Computer Science student specializing in full-stack web development. Skilled in HTML, CSS, JavaScript, and React, I excel at building responsive and user-friendly web applications.</p>  
   
   <div className='social-media'>
-          <a href="https://linkedin.com" target="_blank" >
+          <a href="www.linkedin.com/in/harsh-gangwal" target="_blank" >
             <img src={linkedin_icon} alt="Linkedin icon" />
           </a>
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/Harshgangwal10" target="_blank">
             <img src={github_icon} alt="github icon" />
           </a>
           
