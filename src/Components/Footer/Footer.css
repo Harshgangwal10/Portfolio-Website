@@ -1,0 +1,19 @@
+.footer{
+  display: flex;
+  
+  justify-content: center;
+  text-align: center;
+ 
+
+
+}
+p{
+  margin-bottom: 25px;
+  color: #d3cdcd;
+
+}
+@media (max-width:760px){
+  p{
+    font-size: 15px;
+  }
+} 

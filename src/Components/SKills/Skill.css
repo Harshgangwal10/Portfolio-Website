@@ -1,0 +1,129 @@
+.skills{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+
+}
+.skills-title{
+  position: relative;
+}
+.skills-title h1 {
+  padding: 0px 30px;
+  font-size: 70px;
+  font-weight: 600;
+}
+ .skills-title img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+ }
+
+ 
+ .skills-types {
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  gap: 15px; 
+  margin: 0 auto; 
+}
+
+.skill-type {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+  transition: transform 0.2s ease-in-out; /
+}
+
+.skill-type:hover {
+  transform: scale(1.05); 
+}
+
+.skill-type p {
+  margin: 0;
+  flex-shrink:0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #faf8f8; 
+  width: 150px; 
+  text-align: left; 
+  transition: color 0.2s ease-in-out; 
+}
+
+.skill-type p:hover {
+  color: #4caf50; 
+  cursor: pointer; 
+}
+
+.skill-type hr {
+  border: 0;
+  height: 8px; 
+  background: linear-gradient(90deg, #4caf50, #8bc34a); 
+  border-radius: 4px; 
+  transition: background 0.3s ease-in-out, height 0.2s ease-in-out; 
+}
+
+.skill-type hr:hover {
+  background: linear-gradient(90deg, #8bc34a, #4caf50); 
+  height: 10px; 
+  cursor: pointer;
+ }
+
+ @media(max-width:769px){
+  .skills{
+    gap: 70px;
+    margin: 40px 20px 90px;
+  }
+  .skills-title h1{
+    font-size: 40px;
+  }
+   .skills-title img{
+    width: 70%;
+   
+   } 
+
+    .skills-types{
+      width:90%;
+      gap: 25px; 
+    
+    }
+    .skill-type {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align for a clean look */
+      gap: 5px; /* Reduce gap */
+    }
+
+    .skill-type p {
+      font-size: 18px;
+      align-items: center;
+    }
+    .skill-type hr {
+      height: 5px; 
+    
+    }
+
+  }
+  @media(max-width:1050px){
+    .skill-title h1{
+      font-size: 65px; /* Adjust title size */
+   
+    }
+    .skills {
+      gap: 40px; /* Reduce spacing for medium screens */
+      padding: 15px;
+    }
+    .skills-types{
+      width:80%;
+      gap: 15px; 
+    }
+    .skill-type {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Left-align for medium screens */
+      gap: 10px;
+    }
+    .skill-type p {
+      font-size: 20px;
+      text-align: left;
+    }
+  }
