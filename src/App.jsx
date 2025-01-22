@@ -5,7 +5,7 @@ import Hero from './Components/Hero/Hero.jsx'
 import About from './Components/About/About.jsx'
 import Skill from './Components/SKills/Skill.jsx'
 import Project from './Components/Project/Project.jsx'
-import Contact from './Components/Contact/contact.jsx'
+import Contact from './Components/Contact/Contact.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 
 const App = () => {
