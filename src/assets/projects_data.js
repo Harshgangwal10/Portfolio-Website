@@ -2,7 +2,7 @@ import booking_system from './booking_system.png'
 
   const Services_Data = [
     {
-        p_img:booking_system,
+        p_img:Appointment_booking_system,
         p_name:"Web design",
         s_desc:"Web development is the process of building, programming..."
     },
